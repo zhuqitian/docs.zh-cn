@@ -349,7 +349,7 @@ W0708 17:16:27.308156 11473 heartbeat\_server.cpp:82\] backend ip saved in maste
 此时需要，先用以下命令drop掉原来加进去的be，然后重新以正确的IP添加BE。
 
 ```sql
-mysql> ALTER SYSTEM DROPP BACKEND "172.16.139.24:9050";
+mysql> ALTER SYSTEM DROP BACKEND "172.16.139.24:9050";
 ```
 
 <br/>
